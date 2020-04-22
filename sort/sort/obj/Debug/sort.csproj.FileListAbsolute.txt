@@ -1,0 +1,20 @@
+C:\Users\Banana1\source\repos\sort\sort\bin\Debug\sort.exe.config
+C:\Users\Banana1\source\repos\sort\sort\bin\Debug\sort.exe
+C:\Users\Banana1\source\repos\sort\sort\bin\Debug\sort.pdb
+C:\Users\Banana1\source\repos\sort\sort\obj\Debug\sort.csprojAssemblyReference.cache
+C:\Users\Banana1\source\repos\sort\sort\obj\Debug\sort.Form1.resources
+C:\Users\Banana1\source\repos\sort\sort\obj\Debug\sort.Properties.Resources.resources
+C:\Users\Banana1\source\repos\sort\sort\obj\Debug\sort.csproj.GenerateResource.cache
+C:\Users\Banana1\source\repos\sort\sort\obj\Debug\sort.csproj.CoreCompileInputs.cache
+C:\Users\Banana1\source\repos\sort\sort\obj\Debug\sort.exe
+C:\Users\Banana1\source\repos\sort\sort\obj\Debug\sort.pdb
+C:\Users\Digital Banana4\Desktop\sort\sort\bin\Debug\sort.exe.config
+C:\Users\Digital Banana4\Desktop\sort\sort\bin\Debug\sort.exe
+C:\Users\Digital Banana4\Desktop\sort\sort\bin\Debug\sort.pdb
+C:\Users\Digital Banana4\Desktop\sort\sort\obj\Debug\sort.csprojAssemblyReference.cache
+C:\Users\Digital Banana4\Desktop\sort\sort\obj\Debug\sort.Form1.resources
+C:\Users\Digital Banana4\Desktop\sort\sort\obj\Debug\sort.Properties.Resources.resources
+C:\Users\Digital Banana4\Desktop\sort\sort\obj\Debug\sort.csproj.GenerateResource.cache
+C:\Users\Digital Banana4\Desktop\sort\sort\obj\Debug\sort.csproj.CoreCompileInputs.cache
+C:\Users\Digital Banana4\Desktop\sort\sort\obj\Debug\sort.exe
+C:\Users\Digital Banana4\Desktop\sort\sort\obj\Debug\sort.pdb
