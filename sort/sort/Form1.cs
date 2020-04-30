@@ -66,7 +66,11 @@ namespace sort
 
         private void init_form()
         {
-            
+            init_elements();
+            init_form_elements();
+            show_elements();
+            binary_search_actions(false);
+            set_default_colors();
         }
 
         private List<int> get_indexies()
@@ -93,12 +97,43 @@ namespace sort
                 free_indexies.RemoveAt(elem_index);
             }
             is_sorted = false;
-            btnBinSearch.Enabled = false;
+            binary_search_actions(false);
         }
 
         private void sort_elements()
         {
-            
+            QuickSort.quick_sort(elements);
+            is_sorted = true;
+            binary_search_actions(true);
+            show_elements();
+        }
+
+        private void set_default_colors() 
+        {
+            for(int i = 0; i < form_elements.Count; i++)
+            {
+                form_elements[i].Tb.BackColor = Color.White;
+            }
+        }
+
+        private void binary_search_actions(bool value)
+        {
+            btnBinSearch.Enabled = value;
+            tbBinarySearch.ReadOnly = !value;
+            tbBinarySearch.Text = "";
+        }
+
+        private void binary_search(string key) 
+        {
+            int index = BinarySearch.binary_search(elements,key);
+            if (index != -1)
+            {
+                form_elements[index].Tb.BackColor = Color.GreenYellow;
+            }
+            else
+            {
+                MessageBox.Show("Элемент не найден", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnMixed_Click(object sender, EventArgs e)
@@ -108,14 +143,16 @@ namespace sort
 
         private void btnSort_Click(object sender, EventArgs e)
         {
-            
+            sort_elements();
         }
 
         private void btnBinSearch_Click(object sender, EventArgs e)
         {
             if (is_sorted)
             {
-
+                tbBinarySearch.ReadOnly = false;
+                set_default_colors();
+                binary_search(tbBinarySearch.Text);
             }
         }
     }

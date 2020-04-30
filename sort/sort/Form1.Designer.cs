@@ -53,6 +53,7 @@
             this.btnMixed = new System.Windows.Forms.Button();
             this.btnSort = new System.Windows.Forms.Button();
             this.btnBinSearch = new System.Windows.Forms.Button();
+            this.tbBinarySearch = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbArray1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbArray2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbArray3)).BeginInit();
@@ -68,7 +69,7 @@
             // pbArray1
             // 
             this.pbArray1.Location = new System.Drawing.Point(22, 76);
-            this.pbArray1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbArray1.Margin = new System.Windows.Forms.Padding(2);
             this.pbArray1.Name = "pbArray1";
             this.pbArray1.Size = new System.Drawing.Size(87, 84);
             this.pbArray1.TabIndex = 0;
@@ -88,7 +89,7 @@
             // pbArray2
             // 
             this.pbArray2.Location = new System.Drawing.Point(171, 76);
-            this.pbArray2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbArray2.Margin = new System.Windows.Forms.Padding(2);
             this.pbArray2.Name = "pbArray2";
             this.pbArray2.Size = new System.Drawing.Size(87, 84);
             this.pbArray2.TabIndex = 2;
@@ -97,7 +98,7 @@
             // pbArray3
             // 
             this.pbArray3.Location = new System.Drawing.Point(314, 76);
-            this.pbArray3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbArray3.Margin = new System.Windows.Forms.Padding(2);
             this.pbArray3.Name = "pbArray3";
             this.pbArray3.Size = new System.Drawing.Size(87, 84);
             this.pbArray3.TabIndex = 3;
@@ -106,7 +107,7 @@
             // pbArray4
             // 
             this.pbArray4.Location = new System.Drawing.Point(461, 76);
-            this.pbArray4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbArray4.Margin = new System.Windows.Forms.Padding(2);
             this.pbArray4.Name = "pbArray4";
             this.pbArray4.Size = new System.Drawing.Size(87, 84);
             this.pbArray4.TabIndex = 4;
@@ -115,7 +116,7 @@
             // pbArray5
             // 
             this.pbArray5.Location = new System.Drawing.Point(590, 76);
-            this.pbArray5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbArray5.Margin = new System.Windows.Forms.Padding(2);
             this.pbArray5.Name = "pbArray5";
             this.pbArray5.Size = new System.Drawing.Size(87, 84);
             this.pbArray5.TabIndex = 5;
@@ -124,7 +125,7 @@
             // pbArray10
             // 
             this.pbArray10.Location = new System.Drawing.Point(590, 227);
-            this.pbArray10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbArray10.Margin = new System.Windows.Forms.Padding(2);
             this.pbArray10.Name = "pbArray10";
             this.pbArray10.Size = new System.Drawing.Size(87, 84);
             this.pbArray10.TabIndex = 10;
@@ -133,7 +134,7 @@
             // pbArray9
             // 
             this.pbArray9.Location = new System.Drawing.Point(461, 227);
-            this.pbArray9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbArray9.Margin = new System.Windows.Forms.Padding(2);
             this.pbArray9.Name = "pbArray9";
             this.pbArray9.Size = new System.Drawing.Size(87, 84);
             this.pbArray9.TabIndex = 9;
@@ -142,7 +143,7 @@
             // pbArray8
             // 
             this.pbArray8.Location = new System.Drawing.Point(314, 227);
-            this.pbArray8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbArray8.Margin = new System.Windows.Forms.Padding(2);
             this.pbArray8.Name = "pbArray8";
             this.pbArray8.Size = new System.Drawing.Size(87, 84);
             this.pbArray8.TabIndex = 8;
@@ -151,7 +152,7 @@
             // pbArray7
             // 
             this.pbArray7.Location = new System.Drawing.Point(171, 227);
-            this.pbArray7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbArray7.Margin = new System.Windows.Forms.Padding(2);
             this.pbArray7.Name = "pbArray7";
             this.pbArray7.Size = new System.Drawing.Size(87, 84);
             this.pbArray7.TabIndex = 7;
@@ -160,7 +161,7 @@
             // pbArray6
             // 
             this.pbArray6.Location = new System.Drawing.Point(22, 227);
-            this.pbArray6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbArray6.Margin = new System.Windows.Forms.Padding(2);
             this.pbArray6.Name = "pbArray6";
             this.pbArray6.Size = new System.Drawing.Size(87, 84);
             this.pbArray6.TabIndex = 6;
@@ -180,7 +181,7 @@
             // 
             this.tbArray1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbArray1.Location = new System.Drawing.Point(22, 165);
-            this.tbArray1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbArray1.Margin = new System.Windows.Forms.Padding(2);
             this.tbArray1.Name = "tbArray1";
             this.tbArray1.ReadOnly = true;
             this.tbArray1.Size = new System.Drawing.Size(88, 21);
@@ -191,7 +192,7 @@
             // 
             this.tbArray2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbArray2.Location = new System.Drawing.Point(171, 165);
-            this.tbArray2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbArray2.Margin = new System.Windows.Forms.Padding(2);
             this.tbArray2.Name = "tbArray2";
             this.tbArray2.ReadOnly = true;
             this.tbArray2.Size = new System.Drawing.Size(88, 21);
@@ -202,7 +203,7 @@
             // 
             this.tbArray3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbArray3.Location = new System.Drawing.Point(314, 165);
-            this.tbArray3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbArray3.Margin = new System.Windows.Forms.Padding(2);
             this.tbArray3.Name = "tbArray3";
             this.tbArray3.ReadOnly = true;
             this.tbArray3.Size = new System.Drawing.Size(88, 21);
@@ -213,7 +214,7 @@
             // 
             this.tbArray4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbArray4.Location = new System.Drawing.Point(461, 165);
-            this.tbArray4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbArray4.Margin = new System.Windows.Forms.Padding(2);
             this.tbArray4.Name = "tbArray4";
             this.tbArray4.ReadOnly = true;
             this.tbArray4.Size = new System.Drawing.Size(88, 21);
@@ -224,7 +225,7 @@
             // 
             this.tbArray5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbArray5.Location = new System.Drawing.Point(590, 165);
-            this.tbArray5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbArray5.Margin = new System.Windows.Forms.Padding(2);
             this.tbArray5.Name = "tbArray5";
             this.tbArray5.ReadOnly = true;
             this.tbArray5.Size = new System.Drawing.Size(88, 21);
@@ -235,7 +236,7 @@
             // 
             this.tbArray10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbArray10.Location = new System.Drawing.Point(590, 315);
-            this.tbArray10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbArray10.Margin = new System.Windows.Forms.Padding(2);
             this.tbArray10.Name = "tbArray10";
             this.tbArray10.ReadOnly = true;
             this.tbArray10.Size = new System.Drawing.Size(88, 21);
@@ -246,7 +247,7 @@
             // 
             this.tbArray9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbArray9.Location = new System.Drawing.Point(461, 315);
-            this.tbArray9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbArray9.Margin = new System.Windows.Forms.Padding(2);
             this.tbArray9.Name = "tbArray9";
             this.tbArray9.ReadOnly = true;
             this.tbArray9.Size = new System.Drawing.Size(88, 21);
@@ -257,7 +258,7 @@
             // 
             this.tbArray8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbArray8.Location = new System.Drawing.Point(314, 315);
-            this.tbArray8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbArray8.Margin = new System.Windows.Forms.Padding(2);
             this.tbArray8.Name = "tbArray8";
             this.tbArray8.ReadOnly = true;
             this.tbArray8.Size = new System.Drawing.Size(88, 21);
@@ -268,7 +269,7 @@
             // 
             this.tbArray7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbArray7.Location = new System.Drawing.Point(171, 315);
-            this.tbArray7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbArray7.Margin = new System.Windows.Forms.Padding(2);
             this.tbArray7.Name = "tbArray7";
             this.tbArray7.ReadOnly = true;
             this.tbArray7.Size = new System.Drawing.Size(88, 21);
@@ -279,7 +280,7 @@
             // 
             this.tbArray6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbArray6.Location = new System.Drawing.Point(22, 315);
-            this.tbArray6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbArray6.Margin = new System.Windows.Forms.Padding(2);
             this.tbArray6.Name = "tbArray6";
             this.tbArray6.ReadOnly = true;
             this.tbArray6.Size = new System.Drawing.Size(88, 21);
@@ -290,7 +291,7 @@
             // 
             this.btnMixed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnMixed.Location = new System.Drawing.Point(92, 373);
-            this.btnMixed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMixed.Margin = new System.Windows.Forms.Padding(2);
             this.btnMixed.Name = "btnMixed";
             this.btnMixed.Size = new System.Drawing.Size(115, 39);
             this.btnMixed.TabIndex = 22;
@@ -301,8 +302,8 @@
             // btnSort
             // 
             this.btnSort.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnSort.Location = new System.Drawing.Point(296, 373);
-            this.btnSort.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSort.Location = new System.Drawing.Point(223, 373);
+            this.btnSort.Margin = new System.Windows.Forms.Padding(2);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(115, 39);
             this.btnSort.TabIndex = 23;
@@ -313,8 +314,8 @@
             // btnBinSearch
             // 
             this.btnBinSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnBinSearch.Location = new System.Drawing.Point(494, 373);
-            this.btnBinSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBinSearch.Location = new System.Drawing.Point(364, 373);
+            this.btnBinSearch.Margin = new System.Windows.Forms.Padding(2);
             this.btnBinSearch.Name = "btnBinSearch";
             this.btnBinSearch.Size = new System.Drawing.Size(166, 39);
             this.btnBinSearch.TabIndex = 24;
@@ -322,12 +323,20 @@
             this.btnBinSearch.UseVisualStyleBackColor = true;
             this.btnBinSearch.Click += new System.EventHandler(this.btnBinSearch_Click);
             // 
+            // tbBinarySearch
+            // 
+            this.tbBinarySearch.Location = new System.Drawing.Point(550, 384);
+            this.tbBinarySearch.Name = "tbBinarySearch";
+            this.tbBinarySearch.Size = new System.Drawing.Size(100, 20);
+            this.tbBinarySearch.TabIndex = 25;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(707, 432);
+            this.Controls.Add(this.tbBinarySearch);
             this.Controls.Add(this.btnBinSearch);
             this.Controls.Add(this.btnSort);
             this.Controls.Add(this.btnMixed);
@@ -353,7 +362,7 @@
             this.Controls.Add(this.pbArray2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbArray1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pbArray1)).EndInit();
@@ -398,6 +407,7 @@
         private System.Windows.Forms.Button btnMixed;
         private System.Windows.Forms.Button btnSort;
         private System.Windows.Forms.Button btnBinSearch;
+        private System.Windows.Forms.TextBox tbBinarySearch;
     }
 }
 
